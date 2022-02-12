@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5833CC8B27AAC31C00D57D1D /* TestSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5833CC8A27AAC31C00D57D1D /* TestSwiftUI.swift */; };
 		583CD48C27A55F7500719A72 /* CombineNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583CD48B27A55F7500719A72 /* CombineNavigationView.swift */; };
 		583CD48F27A5630B00719A72 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583CD48E27A5630B00719A72 /* String.swift */; };
 		583CD49227A56B2700719A72 /* CombineClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583CD49127A56B2700719A72 /* CombineClasses.swift */; };
 		5847543627A55ABD00BFEC0D /* Combine_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847543527A55ABD00BFEC0D /* Combine_APPApp.swift */; };
-		5847543827A55ABD00BFEC0D /* CombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847543727A55ABD00BFEC0D /* CombineView.swift */; };
+		5847543827A55ABD00BFEC0D /* Lesson1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847543727A55ABD00BFEC0D /* Lesson1View.swift */; };
 		5847543A27A55ABE00BFEC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5847543927A55ABE00BFEC0D /* Assets.xcassets */; };
 		5847543D27A55ABE00BFEC0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5847543C27A55ABE00BFEC0D /* Preview Assets.xcassets */; };
+		587516D627B81EB2007B32CE /* Lesson2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587516D527B81EB2007B32CE /* Lesson2View.swift */; };
+		587516D827B81EC0007B32CE /* Lesson3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587516D727B81EC0007B32CE /* Lesson3View.swift */; };
+		587516DA27B81ECF007B32CE /* Lesson4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587516D927B81ECF007B32CE /* Lesson4View.swift */; };
+		587516DC27B81EDF007B32CE /* Lesson5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587516DB27B81EDF007B32CE /* Lesson5View.swift */; };
+		587516DE27B81EE9007B32CE /* Lesson6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587516DD27B81EE9007B32CE /* Lesson6View.swift */; };
+		587516E027B81EF2007B32CE /* Lesson7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587516DF27B81EF2007B32CE /* Lesson7View.swift */; };
+		587516E227B81F0B007B32CE /* Lesson8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587516E127B81F0B007B32CE /* Lesson8View.swift */; };
 		58CFDDF627A5BD8A002BDED9 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CFDDF527A5BD8A002BDED9 /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5833CC8A27AAC31C00D57D1D /* TestSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUI.swift; sourceTree = "<group>"; };
 		583CD48B27A55F7500719A72 /* CombineNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineNavigationView.swift; sourceTree = "<group>"; };
 		583CD48E27A5630B00719A72 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		583CD49127A56B2700719A72 /* CombineClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineClasses.swift; sourceTree = "<group>"; };
 		5847543227A55ABD00BFEC0D /* Combine-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Combine-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5847543527A55ABD00BFEC0D /* Combine_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_APPApp.swift; sourceTree = "<group>"; };
-		5847543727A55ABD00BFEC0D /* CombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineView.swift; sourceTree = "<group>"; };
+		5847543727A55ABD00BFEC0D /* Lesson1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson1View.swift; sourceTree = "<group>"; };
 		5847543927A55ABE00BFEC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5847543C27A55ABE00BFEC0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		587516D527B81EB2007B32CE /* Lesson2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2View.swift; sourceTree = "<group>"; };
+		587516D727B81EC0007B32CE /* Lesson3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson3View.swift; sourceTree = "<group>"; };
+		587516D927B81ECF007B32CE /* Lesson4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4View.swift; sourceTree = "<group>"; };
+		587516DB27B81EDF007B32CE /* Lesson5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson5View.swift; sourceTree = "<group>"; };
+		587516DD27B81EE9007B32CE /* Lesson6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson6View.swift; sourceTree = "<group>"; };
+		587516DF27B81EF2007B32CE /* Lesson7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson7View.swift; sourceTree = "<group>"; };
+		587516E127B81F0B007B32CE /* Lesson8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson8View.swift; sourceTree = "<group>"; };
 		58CFDDF527A5BD8A002BDED9 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,8 +94,9 @@
 			children = (
 				5847543527A55ABD00BFEC0D /* Combine_APPApp.swift */,
 				583CD48B27A55F7500719A72 /* CombineNavigationView.swift */,
-				5847543727A55ABD00BFEC0D /* CombineView.swift */,
+				587516D327B81DCF007B32CE /* Lessons */,
 				5847543927A55ABE00BFEC0D /* Assets.xcassets */,
+				587516D427B81E7E007B32CE /* Test */,
 				583CD49027A56B1100719A72 /* Combine */,
 				583CD48D27A562FC00719A72 /* Extensions */,
 				5847543B27A55ABE00BFEC0D /* Preview Content */,
@@ -93,6 +110,29 @@
 				5847543C27A55ABE00BFEC0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		587516D327B81DCF007B32CE /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				5847543727A55ABD00BFEC0D /* Lesson1View.swift */,
+				587516D527B81EB2007B32CE /* Lesson2View.swift */,
+				587516D727B81EC0007B32CE /* Lesson3View.swift */,
+				587516D927B81ECF007B32CE /* Lesson4View.swift */,
+				587516DB27B81EDF007B32CE /* Lesson5View.swift */,
+				587516DD27B81EE9007B32CE /* Lesson6View.swift */,
+				587516DF27B81EF2007B32CE /* Lesson7View.swift */,
+				587516E127B81F0B007B32CE /* Lesson8View.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		587516D427B81E7E007B32CE /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				5833CC8A27AAC31C00D57D1D /* TestSwiftUI.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,12 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5847543827A55ABD00BFEC0D /* CombineView.swift in Sources */,
+				587516E027B81EF2007B32CE /* Lesson7View.swift in Sources */,
+				5847543827A55ABD00BFEC0D /* Lesson1View.swift in Sources */,
+				587516DE27B81EE9007B32CE /* Lesson6View.swift in Sources */,
+				587516D827B81EC0007B32CE /* Lesson3View.swift in Sources */,
 				583CD48C27A55F7500719A72 /* CombineNavigationView.swift in Sources */,
 				58CFDDF627A5BD8A002BDED9 /* Notification.swift in Sources */,
 				583CD48F27A5630B00719A72 /* String.swift in Sources */,
 				583CD49227A56B2700719A72 /* CombineClasses.swift in Sources */,
+				587516DC27B81EDF007B32CE /* Lesson5View.swift in Sources */,
+				587516D627B81EB2007B32CE /* Lesson2View.swift in Sources */,
+				5833CC8B27AAC31C00D57D1D /* TestSwiftUI.swift in Sources */,
+				587516E227B81F0B007B32CE /* Lesson8View.swift in Sources */,
 				5847543627A55ABD00BFEC0D /* Combine_APPApp.swift in Sources */,
+				587516DA27B81ECF007B32CE /* Lesson4View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.igorlab.Combine-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -342,7 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.igorlab.Combine-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
