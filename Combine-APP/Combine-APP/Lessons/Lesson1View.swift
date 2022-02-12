@@ -1,5 +1,5 @@
 //
-//  CombineView.swift
+//  Lesson1View.swift
 //  Combine-APP
 //
 //  Created by Igor on 29.01.2022.
@@ -11,11 +11,11 @@ import Combine
 fileprivate var cancellableSet: Set<AnyCancellable> = []
 
 struct CatchesValue: Identifiable {
-    let id: UUID
+    let id = UUID()
     let name: String
 }
 
-struct CombineView: View {
+struct Lesson1View: View {
     
     private let notifyCenter = NotificationCenter.default
     
@@ -29,6 +29,7 @@ struct CombineView: View {
     var body: some View {
         VStack {
             Text("Урок 1. .onNext(Combine)")
+                .padding()
             HStack {
                 Button("Generate Struct") {
                     sendNotifyForGenerateStruct()
@@ -78,8 +79,7 @@ struct CombineView: View {
     private func addValuesInArray(with randNumber: Int) {
 
         let randomString = randomString(randNumber)
-        let value = CatchesValue(id: UUID(),
-                                 name: randomString)
+        let value = CatchesValue(name: randomString)
         catchesValues.append(value)
     }
     
@@ -89,8 +89,8 @@ struct CombineView: View {
     }
 }
 
-struct CombineView_Previews: PreviewProvider {
+struct Lesson1View_Previews: PreviewProvider {
     static var previews: some View {
-        CombineView()
+        Lesson1View()
     }
 }
