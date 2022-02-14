@@ -15,6 +15,7 @@ struct Lesson4View: View {
     var body: some View {
         VStack{
             Text("Урок 4. Работа с сетью и отладка")
+                .font(.headline)
 
         }
         .navigationBarTitleDisplayMode(.inline)

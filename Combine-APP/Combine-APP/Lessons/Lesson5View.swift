@@ -15,6 +15,7 @@ struct Lesson5View: View {
     var body: some View {
         VStack{
             Text("Урок 5. KVO, Timers, Resource management")
+                .font(.headline)
 
         }
         .navigationBarTitleDisplayMode(.inline)

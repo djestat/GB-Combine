@@ -15,7 +15,8 @@ struct Lesson8View: View {
     var body: some View {
         VStack{
             Text("Урок 8. Тестирование Combine-кода")
-            
+                .font(.headline)
+
         }
         .navigationBarTitleDisplayMode(.inline)
     }
