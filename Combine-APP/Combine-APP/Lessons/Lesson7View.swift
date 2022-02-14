@@ -15,6 +15,7 @@ struct Lesson7View: View {
     var body: some View {
         VStack{
             Text("Урок 7. SwiftUI + Combine")
+                .font(.headline)
 
         }
         .navigationBarTitleDisplayMode(.inline)

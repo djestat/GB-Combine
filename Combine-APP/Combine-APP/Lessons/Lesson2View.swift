@@ -23,9 +23,10 @@ struct Lesson2View: View {
     @State var middleValue: Double = 0
 
     var body: some View {
-        VStack {
+        ScrollView {
             VStack {
                 Text("Урок 2. Операторы. Часть 1")
+                    .font(.headline)
                     .padding()
                 Button("Опубликовать коллекцию") {
                     publihsCollection()
@@ -33,7 +34,7 @@ struct Lesson2View: View {
                 .padding()
                 List(catchesValues) { value in
                     Text(value.value)
-                }
+                }.frame(height: 300)
             }
             Spacer().frame(height: 30)
             TextField("Введите числа через запятую", text: $mathString)
@@ -43,9 +44,7 @@ struct Lesson2View: View {
             Button("Расчитать среднее арифметическое") {
                 calculateString()
             }.padding()
-            Spacer().frame(height: 300)
         }
-
         .navigationBarTitleDisplayMode(.inline)
     }
     

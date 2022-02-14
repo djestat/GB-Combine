@@ -15,7 +15,8 @@ struct Lesson6View: View {
     var body: some View {
         VStack{
             Text("Урок 6. Продвинутый Combine")
-            
+                .font(.headline)
+
         }
         .navigationBarTitleDisplayMode(.inline)
     }

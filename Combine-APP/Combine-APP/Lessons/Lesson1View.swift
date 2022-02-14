@@ -29,6 +29,7 @@ struct Lesson1View: View {
     var body: some View {
         VStack {
             Text("Урок 1. .onNext(Combine)")
+                .font(.headline)
                 .padding()
             HStack {
                 Button("Generate Struct") {
