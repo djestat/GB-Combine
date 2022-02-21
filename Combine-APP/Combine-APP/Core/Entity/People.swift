@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - People
-struct People: Codable {    
+struct People: Codable, Hashable {    
     let name, height, mass, hairColor: String
     let skinColor, eyeColor, birthYear, gender: String
     let homeworld: String

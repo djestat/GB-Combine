@@ -13,7 +13,7 @@ struct ApiClient {
     private let queue = DispatchQueue(label: "ApiClient",
                                       qos: .default, 
                                       attributes: .concurrent)
-    
+    private let mainQ = DispatchQueue.main
     
     func getPeople(id: Int) -> AnyPublisher<People, Error> {
         URLSession.shared
@@ -43,5 +43,41 @@ struct ApiClient {
                 .merge(with: getPeople(id: id))
                 .eraseToAnyPublisher()
         }
+    }
+    
+    //MARK: - Planets
+    func getPlanets(id: Int) -> AnyPublisher<Planet, Error> {
+        URLSession.shared
+            .dataTaskPublisher(for: Method.planets(id).url)
+            .receive(on: queue)
+            .map( \.data)
+            .decode(type: Planet.self, decoder: decoder)
+            .mapError { error -> Error in
+                switch error {
+                case is URLError:
+                    return NetworkError.invalidURL(Method.planets(id).url)
+                default:
+                    return NetworkError.invalidResponse
+                }
+            }
+            .eraseToAnyPublisher()
+    }
+    
+    //MARK: - Starship
+    func getStarships(id: Int) -> AnyPublisher<Starship, Error> {
+        URLSession.shared
+            .dataTaskPublisher(for: Method.starships(id).url)
+            .receive(on: queue)
+            .map( \.data)
+            .decode(type: Starship.self, decoder: decoder)
+            .mapError { error -> Error in
+                switch error {
+                case is URLError:
+                    return NetworkError.invalidURL(Method.starships(id).url)
+                default:
+                    return NetworkError.invalidResponse
+                }
+            }
+            .eraseToAnyPublisher()
     }
 }

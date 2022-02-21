@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Welcome
-struct Starship: Codable {
+struct Starship: Codable, Hashable {
     let name, model, manufacturer, costInCredits: String
     let length, maxAtmospheringSpeed, crew, passengers: String
     let cargoCapacity, consumables, hyperdriveRating, mglt: String
